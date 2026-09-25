@@ -7,25 +7,58 @@
         <link rel="stylesheet" href="login.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="head">
             <img class="logo" src="/assets/Logo.png">
         </div>
+
         <div class="login">
-            <div class="auth"></div>
-            <div class="picture"></div>
+            <div class="auth">
+                <p class="auth_line_1">Connect and Work</p>
+                <p class="auth_line_2">Your online office</p>
+
+                <div class="auth_box">
+                    <button class="google_auth">Continue with Google</button>
+                    <span>OR</span>
+                    <div class="auth_container">
+                        <input class="account_auth" placeholder="Enter your username">
+                        <input class="account_auth" placeholder="Enter your password">
+                    </div>
+                    <button class="sign_in_btn">Sign in</button>
+                </div>
+                <button class="register_btn"> Register </button>
+            </div>
+
+            <div class="picture">
+                <img class="illu" alt="remote-ilustrate" src="/assets/Tips-For-Remote-Work-Business-1441444285.webp">
+            </div>
         </div>
 
         <div class="plans">
             <div class="explore_plans">Explore Plans</div>
 
             <div class="three_plans">
-                <div class="free"></div>
-                <div class="pro"></div>
-                <div class="max"></div>
+                <div class="free">
+                    <span class="plan_tag">Free</span>
+                    <span>Try now!</span>
+                    <p class="price">$0</p>
+                    <button class="purchase">Subcribe</button>
+                </div>
+                <div class="pro">
+                    <span class="plan_tag">Pro</span>
+                    <span>Get full features!</span>
+                    <p class="price">$20</p>
+                    <button class="purchase">Subcribe</button>
+                </div>
+                <div class="max">
+                    <span class="plan_tag">Max</span>
+                    <span>Unlimited AI!</span>
+                    <p class="price">$50</p>
+                    <button class="purchase">Subcribe</button>
+                </div>
             </div>
         </div>
 
